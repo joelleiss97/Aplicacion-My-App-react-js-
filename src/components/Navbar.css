@@ -1,0 +1,39 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    height: 60px;
+}
+.Navbar > .nav-logo{
+    font-weight: 450px;
+    font-size: 35px;
+    margin: 20px;
+    color: #fff;
+    padding-left: 60px;
+}
+.Navbar > .nav-logo > :hover{
+    color: rgb(172, 97, 48);
+    font-size: 37px;
+    transition: all .20s;
+    cursor: pointer;
+}
+.Navbar > .nav-items >a{
+   color: #fff;
+   font-size: 20px;
+   margin: 20px;
+   text-decoration: none;
+   position: relative;
+   cursor: pointer;
+   
+   
+}
+.Navbar > .nav-items >a:hover{
+    color: rgb(172, 97, 48);
+    font-size: 23px;
+    transition: all .20s;
+    
+}
+
+
