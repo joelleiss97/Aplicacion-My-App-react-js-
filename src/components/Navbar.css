@@ -13,6 +13,11 @@
     color: #fff;
     padding-left: 60px;
 }
+.Navbar > .nav-carrito{
+    color: #fff;
+    font-size: 30px;
+}
+
 .Navbar > .nav-logo > :hover{
     color: rgb(172, 97, 48);
     font-size: 37px;
@@ -35,5 +40,3 @@
     transition: all .20s;
     
 }
-
-

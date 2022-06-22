@@ -1,0 +1,53 @@
+
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    gap: 2em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    color: #fff;
+}
+.icons{
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.container .card img{
+    border-radius: 10px;
+}
+.container .card h2{
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.container .card h3{
+    font-size: 20px;
+    color: rgb(172, 97, 48);
+    
+}
+.container .card p{
+    font-size: 20px ;
+    text-align: center;
+    color: #fff;
+}
+button{
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: black;
+    border-radius: 8px;
+}
+button:hover{
+    color: rgb(172, 97, 48);
+    font-size: 25px;
+    transition: all 30s ease;
+}
+
+
+

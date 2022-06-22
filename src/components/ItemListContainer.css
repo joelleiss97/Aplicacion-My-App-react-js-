@@ -1,0 +1,14 @@
+.SubTitulo{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+.SubTitulo:hover{
+    color: rgb(172, 97, 48);
+    font-size: 1.5rem;
+    transition: all .30s ease;
+
+}

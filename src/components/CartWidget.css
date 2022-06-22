@@ -1,0 +1,11 @@
+.nav-logo{
+    font-size: 2em;
+    color: #fff;
+    padding: 40px;
+}
+.nav-logo:hover{
+    transition: all .30s ease;
+    font-size: 2.3em;
+    color: rgb(172, 97, 48);;
+    cursor: pointer;
+}
