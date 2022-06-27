@@ -1,4 +1,5 @@
 import './Card.css';
+import ItemCount from './ItemCount';
 
 function Card(props){ 
     return(
@@ -10,7 +11,8 @@ function Card(props){
                     <h2>{props.product}</h2>
                     <h3>{props.descrip}</h3>
                     <p>{props.price}</p>
-                    <button>{props.button}</button>
+                   
+                    <ItemCount></ItemCount>
                 </div>
                
             </div>

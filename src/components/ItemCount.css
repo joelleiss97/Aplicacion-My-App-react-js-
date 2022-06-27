@@ -1,0 +1,43 @@
+
+.countContainer{
+    font-size: 15px;
+    
+    
+}
+.countButton{
+    color: rgb(196, 103, 41);
+    gap: 10px;
+    border: 1px solid #fff;
+    transition: all 250ms ease-out;
+    font-size: 30px;
+
+}
+.countButton :hover{
+    border: none;
+    
+}
+
+.button-primary{
+    background-color: rgb(196, 103, 41);
+    color: #fff;
+    border-radius: 5px #333;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 15px ;
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+}
+.button-primary p{
+    color: #fff;
+}
+.button-primary p :hover{
+    color: rgb(3, 3, 3);
+}
+.countCo{
+    color: #fff;
+    font-size: 10px;
+}
+
+
